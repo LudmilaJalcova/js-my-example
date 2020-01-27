@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset200802.css">
+    <script src="./main.js"></script>
+  </head>
+
+  <body style="background-color: gray;" class="container-fluid">
+    <div class="row align-items-center justify-content-center" style="height: 100%" id="wrapper">
+      <div class="col-5 text-center p-5">
+        <div style="background-color:#7ebbdc; border-radius: 5px;" class="mb-5 p-3">
+          <div class="list-alert-items-submit"></div>
+          <h2 class="pb-2" style="color: white;">Add Grocery Items</h2>
+          <div class="pb-2">
+            <input type="text" class="d-block w-100 text-capitalize"
+              style="background-color: transparent; border: 0; border-bottom:3px solid grey; color: #e945a5e3"
+              id="input-grocery-items">
+          </div>
+          <div class="px-3">
+            <button class="btn btn-outline-light btn-submit w-100" id="btn-add-grocery-item">Submit
+              Here</button>
+          </div>
+        </div>
+        <div style="background-color: white; border-radius: 5px;" class="p-3">
+          <div class="list-alert-items-remove"></div>
+          <h2 class="pb-2" style="color: #7ebbdc;">Grocery Items</h2>
+          <ul class="list-group pb-2" id="grocery-list">
+          </ul>
+          <div class="px-3">
+            <button class="btn btn-primary btn-clear w-100" id="btn-clear-items">Clear
+              Items</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/4c09c15629.js" crossorigin="anonymous"></script>
+  </body>
+
+</html>

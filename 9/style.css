@@ -1,0 +1,76 @@
+html,
+body {
+  font-family: 'Kaushan Script', cursive;
+  background: white;
+  height: 100vh;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#section-first {
+  border: 3px solid transparent;
+}
+
+#section-first:hover {
+  border: 3px solid black;
+  border-radius: 5px;
+  background-color: rgb(184, 113, 113);
+}
+
+#section-second {
+  border: 3px solid transparent;
+}
+
+#section-second:hover {
+  border: 3px solid black;
+  border-radius: 5px;
+  background-color: rgb(184, 113, 113);
+}
+
+#input-name-of-col {
+  border: 2px solid transparent;
+}
+
+#input-name-of-col:hover {
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+.btn-outline-light {
+  border: 1px solid transparent;
+}
+
+.btn-outline-light:hover {
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.card {
+  border: 2px solid transparent;
+}
+
+.card:hover {
+  border: 2px solid rgba(228, 231, 50, 0.47);
+  border-radius: 5px;
+}
+
+.card h5 {
+  border: 2px solid transparent;
+}
+
+.card h5:hover {
+  border: 2px solid #d06c80;
+  border-radius: 5px;
+}
+
+.card textarea {
+  border: 2px solid transparent;
+}
+
+.card textarea:hover {
+  border: 2px solid #d06c80;
+  border-radius: 5px;
+}

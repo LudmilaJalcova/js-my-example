@@ -1,0 +1,53 @@
+:root {
+  --mainWhite: #f2fdff;
+  --mainBlue: #3e92cc;
+}
+
+.max-height {
+  min-height: 100vh;
+}
+
+.body {
+  background-color: var(--mainWhite);
+}
+
+.img-container {
+  min-height: 60vh;
+  background: url('./img/contBcg-0.jpeg') center/cover fixed no-repeat;
+  border: 0.5rem solid var(--mainBlue);
+  border-radius: 0.5rem;
+  position: relative;
+}
+
+@media screen and (min-width: 768px) {
+  .img-container {
+    min-height: 80vh;
+  }
+}
+
+.btn-right,
+.btn-left {
+  position: absolute;
+  background-color: var(--mainBlue);
+  color: var(--mainWhite);
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 0.2rem solid var(--mainBlue);
+  font-size: 1.2rem;
+}
+
+.btn-right:hover,
+.btn-left:hover {
+  border-color: var(--mainBlue);
+  background-color: var(--mainWhite);
+  color: var(--mainBlue);
+}
+
+.btn-left {
+  left: 0;
+}
+
+.btn-right {
+  right: 0;
+  transform: translate(50%, -50%);
+}

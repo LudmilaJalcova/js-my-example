@@ -1,0 +1,33 @@
+html,
+body {
+  height: 100%;
+}
+
+.body {
+  background-color: rgb(221, 139, 8);
+}
+
+.box {
+  max-width: 400px;
+  background-color: rgb(221, 181, 117);
+}
+
+.btn-generator {
+  background-color: rgb(14, 212, 238);
+  color: #fff;
+  border: rgb(14, 212, 238);
+}
+
+.quote-icon {
+  font-size: 22px;
+}
+
+.title {
+  color: rgb(78, 76, 76);
+  font-size: 18px;
+}
+
+.quote-author {
+  color: rgb(14, 212, 238);
+  font-size: 12px;
+}

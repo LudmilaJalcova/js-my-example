@@ -1,0 +1,97 @@
+.max-height-section-3 {
+  position: relative;
+  background: rgb(228, 223, 223);
+}
+
+#button-addon1 {
+  background-color: #ef7998;
+  border-color: #ef7998;
+  color: black;
+  height: 38px;
+}
+
+.img-container {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.img-container:hover .card-img-top {
+  transform: scale(1.2);
+  transition: all 1s ease-in-out;
+}
+
+.img-container:hover .store-item-icon {
+  transform: translate(0, 0); /* vyska,sirka */
+}
+
+.store-item-icon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 12px;
+  background: #dabd32;
+  border-top-left-radius: 5px;
+  transition: all 1s ease-in-out;
+  transform: translate(100%, 100%); /* vyska,sirka */
+  color: white;
+}
+
+.store-item-icon:hover {
+  color: black;
+}
+
+.light-box-container {
+  position: fixed;
+  background-color: #000000a1;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 2;
+}
+
+.light-box-item {
+  height: 80%;
+  border-radius: 5px;
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+
+.light-box-item img {
+  height: 100%;
+}
+
+.light-box-close {
+  color: #ef7998;
+  font-size: 48px;
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+  right: -200px;
+}
+
+.light-box-close:hover {
+  color: #dabd32;
+}
+
+.light-box-btn-left,
+.light-box-btn-right {
+  position: absolute;
+  font-size: 64px;
+  color: #ef7998;
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.light-box-btn-left:hover,
+.light-box-btn-right:hover {
+  color: #dabd32;
+}
+
+.light-box-btn-left {
+  left: -15px;
+}
+.light-box-btn-right {
+  right: -15px;
+}
